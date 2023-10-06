@@ -2,7 +2,6 @@ const express=require('express');
 const path=require('path');
 const session=require("express-session")
 const flash=require('express-flash');
-const { render } = require('ejs');
 const app=express();
 
 const port=process.env.PORT || 3000;
@@ -64,11 +63,11 @@ app.post('/login',(req,res)=>{
         }
         else{
             req.flash('error','Incorrect Password');
-            res.render('login',{error:"Invalid password"})
+            res.render('login',{perror:"Invalid password"})
         }
     }
     else{
-        res.render('login',{error:"Invalid E-mail"})
+        res.render('login',{Eerror:"Invalid E-mail"})
             
     }
 })
