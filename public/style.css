@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+    background-image: url("assets/");
+    background-size: cover;
+    background-repeat: no-repeat;
+}.center-div{
+    padding-top: 10%;
+}
+.btn.btn-success{
+    padding: .4em 2em;
+}
+form{
+    padding: 0 3em;
+}
+#login.login>span{
+    font-size: .8em;
+}
+.head{
+    margin-top: 20px;
+    padding-top: 10px;
+    background-color: black;
+    color: aliceblue;
+    padding-bottom: 10px;
+    width: 100vw;
+}
+.headin{
+    text-align: center;
+    font-family: sans-serif;
+    margin-left: 43%;
+}
